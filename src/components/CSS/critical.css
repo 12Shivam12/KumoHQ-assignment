@@ -8868,7 +8868,7 @@ html.hide-ch-nav.ch-subnav-focused .contentHubSubnav {
     }
 }
 
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 37.5em)  {
     .pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow td .pricingWrapper .copy,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow td .pricingWrapper .formattedPrice,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow td .pricingWrapper .formattedPrice .formattedPrice__price--perMonth,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow td .pricingWrapper .formLabel--select,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow th .pricingWrapper .copy,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow th .pricingWrapper .formattedPrice,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow th .pricingWrapper .formattedPrice .formattedPrice__price--perMonth,.pricingPlansCalculator--compare .pricingPlans.pricingPlans--compare .pricingPlans__pricingRow th .pricingWrapper .formLabel--select {
         -ms-flex-wrap:nowrap;
         flex-wrap: nowrap
@@ -11174,13 +11174,12 @@ html.hide-ch-nav.ch-subnav-focused .contentHubSubnav {
     }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 48em)  {
     .actionablePlanRecommendations--oneCard .actionablePlanRecommendations__plansWrapper .actionablePlanRecommendations__plan .actionablePlanRecommendations__featuresRow__List li {
-        padding-bottom: .25rem;
-        padding-top: .25rem;
+        padding-bottom:.25rem;
+        padding-top: .25rem
     }
 }
-
 
 @media screen and (min-width: 62em) {
     .actionablePlanRecommendations--oneCard .actionablePlanRecommendations__plansWrapper .actionablePlanRecommendations__plan {
@@ -16276,5 +16275,3 @@ div[data-module-id=p23Headliner] [data-behavior=planSelectorCta] button.ctaArrow
         display: block
     }
 }
-
-

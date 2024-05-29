@@ -174,7 +174,7 @@ hr {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     height: 0;
-    overflow: visible
+    overflow: visible;
 }
 
 pre {
@@ -1793,7 +1793,8 @@ hr {
 
 .margin--vertical-6 {
     margin-top: 3.75rem;
-    margin-bottom: 3.75rem
+    margin-bottom: 3.75rem;
+    border: 1px solid rgba(138, 137, 137, 0.555)
 }
 
 .margin--horizontal-6 {
@@ -1883,7 +1884,8 @@ hr {
 
 .margin--vertical-3 {
     margin-top: 1.875rem;
-    margin-bottom: 1.875rem
+    margin-bottom: 1.875rem;
+    border: 1px solid rgba(138, 137, 137, 0.555)
 }
 
 .margin--horizontal-3 {
@@ -2878,4 +2880,3 @@ hr {
     margin-right: 4rem
 }
 
-/*# sourceMappingURL=common.c2970413.1.css.map*/

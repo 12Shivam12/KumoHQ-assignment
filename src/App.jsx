@@ -1,29 +1,29 @@
 import './App.css'
-import ComponentSeven from './components/CSS/ComponentSeven'
-import ComponentEight from './components/ComponentEight'
-import ComponentFive from './components/ComponentFive'
-import ComponentFour from './components/ComponentFour'
-import ComponentNine from './components/ComponentNine'
-import ComponentOne from './components/ComponentOne'
-import ComponentSix from './components/ComponentSix'
-import ComponentTen from './components/ComponentTen'
+// import ComponentFour from './components/ComponentFour'
 import ComponentThree from './components/ComponentThree'
+import ComponentTwo from './components/ComponentTwo'
+// import ComponentTwo from './components/ComponentTwo'
 import DataBanner from './components/DataBanner'
-import LearnMore from './components/LearnMore'
-import NavBar from './components/Navbar'
-import Pricing from './components/Pricing'
+import Disclaimer from './components/Disclaimer'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import SocialMedia from './components/SocialMedia'
+// import Pricing from './components/Pricing'
 
 
 function App() {
 
   return (
     <>
-      {/* <NavBar/> */}
-      <ComponentOne/>
+      <Home/>
+      <ComponentTwo/>
       <DataBanner/>
       <ComponentThree/>
-      <ComponentFour/>
-      <ComponentFive/>
+      {/* <Pricing/> */}
+      {/* <ComponentFour/> */}
+      <SocialMedia/>
+      <Disclaimer/>
+      <Footer/>
     </>
   )
 }

@@ -1,67 +1,37 @@
 import React from 'react';
-import './CSS/p23HorizontalGrid.css'
 
 const DataBanner = () => {
     return (
-        <section 
-            id="2H9Il2Xl4ESMC4EmOhzrzC" 
-            className="p23HorizontalGrid module backgroundPeppercorn fs-unmask" 
-            data-behavior="p23HorizontalGrid" 
-            data-module-id="p23HorizontalGrid" 
-            data-entry-id="2H9Il2Xl4ESMC4EmOhzrzC"
-        >
-            <div className="module--content align--center">
-                <div className="p23hg__section">
-                    <ul 
-                        data-equalizer="" 
-                        className="p23HorizontalGrid__grid grid--columns-4 has_bullet_items"
-                    >
-                        <li 
-                            className="p23HorizontalGrid__grid__gridItem" 
-                            data-component-id="p23HorizontalGridBulletItem" 
-                            data-entry-id="77LQ0eteIgDMobaBPPIg9C"
-                        >
-                            <div>
-                                <h2 className="h1">#1</h2>
-                                <div className="copy-prose copy-small margin--top-2">
-                                    <p>email marketing and automation platform*</p>
-                                </div>
+        <section className="module backgroundPeppercorn fs-unmask" id="OidnMSh5dh0Y6JFajr4s0" data-behavior="p23TextGridBullets" data-module-id="p23TextGridBullets" data-entry-id="OidnMSh5dh0Y6JFajr4s0" data-context-text="Find out why we’re best-in-class">
+            <div className="module--content">
+                <div className="p23TextGridBullets padding-6 ">
+                    <div className="p23TextGridBullets__header">
+                        <h2 className="p23TextGridBullets__header-title h2">Find out why we’re best-in-class</h2>
+                        <p className="p23TextGridBullets__description copy-large">The #1 email marketing and automations platform* that recommends ways to get more opens, clicks, and sales.</p>
+                    </div>
+                    <ul className="p23TextGridBullets__list">
+                        <li className="p23TextGridBulletItem__list-item">
+                            <div className="p23TextGridBulletItem__holder" data-component-id="p23TextGridBulletItem" data-behavior="p23TextGridBulletItem" data-module-id="p23TextGridBulletItem" data-entry-id="1RmK1gbRg9XBxanV4VV2ix" data-context-text="Up to 25x ROI " data-background-color="backgroundPeppercorn">
+                                <h3 className="p23TextGridBulletItem__title copy-large copy--bold">Up to 25x ROI </h3>
+                                <div className="copy-prose margin--top-2"><p>seen by Mailchimp users*</p></div>
                             </div>
                         </li>
-                        <li 
-                            className="p23HorizontalGrid__grid__gridItem" 
-                            data-component-id="p23HorizontalGridBulletItem" 
-                            data-entry-id="16ACFGEi7Yj5AnJpDy0Zay"
-                        >
-                            <div>
-                                <h2 className="h1">8 million</h2>
-                                <div className="copy-prose copy-small margin--top-2">
-                                    <p>data-backed recommendations with AI-powered features*</p>
-                                </div>
+                        <li className="p23TextGridBulletItem__list-item">
+                            <div className="p23TextGridBulletItem__holder" data-component-id="p23TextGridBulletItem" data-behavior="p23TextGridBulletItem" data-module-id="p23TextGridBulletItem" data-entry-id="6vC8dP86PeynCqJDGKlRfP" data-context-text="22 years experience " data-background-color="backgroundPeppercorn">
+                                <h3 className="p23TextGridBulletItem__title copy-large copy--bold">22 years experience </h3>
+                                <div className="copy-prose margin--top-2"><p>helping businesses sell more</p></div>
                             </div>
                         </li>
-                        <li 
-                            className="p23HorizontalGrid__grid__gridItem" 
-                            data-component-id="p23HorizontalGridBulletItem" 
-                            data-entry-id="6qsUNGY1E6lb3RDzurXnmF"
-                        >
-                            <div>
-                                <h2 className="h1">500 million</h2>
-                                <div className="copy-prose copy-small margin--top-2">
-                                    <p>emails sent each day (average)</p>
-                                </div>
+                        <li className="p23TextGridBulletItem__list-item">
+                            <div className="p23TextGridBulletItem__holder" data-component-id="p23TextGridBulletItem" data-behavior="p23TextGridBulletItem" data-module-id="p23TextGridBulletItem" data-entry-id="3fnba1Jzebl4XaUBeh4kbk" data-context-text="11M+ Users " data-background-color="backgroundPeppercorn">
+                                <h3 className="p23TextGridBulletItem__title copy-large copy--bold">11M+ Users </h3>
+                                <div className="copy-prose margin--top-2"><p>of Mailchimp globally</p></div>
                             </div>
                         </li>
-                        <li 
-                            className="p23HorizontalGrid__grid__gridItem" 
-                            data-component-id="p23HorizontalGridBulletItem" 
-                            data-entry-id="3Up1CBkSthssMXHCko99dE"
-                        >
-                            <div>
-                                <h2 className="h1">&gt;99%</h2>
-                                <div className="copy-prose copy-small margin--top-2">
-                                    <p>deliverability rate (average)</p>
-                                </div>
+                        <li className="p23TextGridBulletItem__list-item">
+                            <div className="p23TextGridBulletItem__holder" data-component-id="p23TextGridBulletItem" data-behavior="p23TextGridBulletItem" data-module-id="p23TextGridBulletItem" data-entry-id="42fBbHDhXe1xHm2Ou8xwzw" data-context-text="$1.7K per campaign " data-background-color="backgroundPeppercorn">
+                                <h3 className="p23TextGridBulletItem__title copy-large copy--bold">$1.7K per campaign </h3>
+                                <div className="copy-prose margin--top-2"><p>generated on average*</p></div>
                             </div>
                         </li>
                     </ul>
@@ -69,6 +39,6 @@ const DataBanner = () => {
             </div>
         </section>
     );
-}
+};
 
 export default DataBanner;
