@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Navbar from './components/Navbar.jsx'
 import SocialMedia from './components/SocialMedia'
+import Test from './components/Test.jsx'
 // import Pricing from './components/Pricing'
 
 
@@ -18,7 +19,6 @@ function App() {
 
   return (
     <>
-    {/* <Header/> */}
     <Navbar/>
       <Home/>
       <ComponentTwo/>
@@ -30,6 +30,7 @@ function App() {
       <SocialMedia/>
       <Disclaimer/>
       <Footer/>
+      {/* <Test/> */}
     </>
   )
 }
