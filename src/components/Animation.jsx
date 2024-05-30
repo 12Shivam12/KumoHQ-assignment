@@ -1,5 +1,7 @@
 import React from 'react'
 import './CSS/scrollingSlides.css'
+import './CSS/critical.css'
+import './CSS/footer.css'
 
 const Animation = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import './CSS/flexibleHighlight.css'
+import './CSS/critical.css'
 
 const ComponentThree = () => {
     return (
@@ -8,10 +9,19 @@ const ComponentThree = () => {
                 <div className="column column1">
                     <h2 className="h2">Get started easily with a personalized product tour</h2>
                     <p>An onboarding specialist is here to help you get started with confidence—it’s included with Standard and Premium plans.*</p>
-                    <div className="cta__holder cta__p23_arrow_link">
+                    {/* <div className="cta__holder cta__p23_arrow_link">
                         <a className="ctaArrow" href="/services/onboarding/" aria-label="Learn more about onboarding">
                             Learn more about onboarding
                         </a>
+                    </div> */}
+
+                    <div class="cta__holder cta__p23_arrow_link">
+                        <a class="ctaArrow" href="/services/onboarding/" aria-label="Learn more about onboarding">
+
+
+                        Learn more about onboarding
+
+                    </a>
                     </div>
                 </div>
                 <div className="column column2">
