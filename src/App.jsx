@@ -1,4 +1,5 @@
 import './App.css'
+import Animation from './components/Animation.jsx'
 // import ComponentFour from './components/ComponentFour'
 import ComponentThree from './components/ComponentThree'
 import ComponentTwo from './components/ComponentTwo'
@@ -20,6 +21,7 @@ function App() {
       <DataBanner/>
       <ComponentThree/>
       {/* <Pricing/> */}
+      <Animation/>
       {/* <ComponentFour/> */}
       <SocialMedia/>
       <Disclaimer/>
